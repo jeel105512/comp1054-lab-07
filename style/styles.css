@@ -1,26 +1,26 @@
-/* General Reset */ 
+/* General Reset */
 
 * {
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/* Typography */ 
+/* Typography */
 
-/* body content */ 
+/* body content */
 body {
     font-family: 'Shantell Sans', cursive;
     font-size: 1.125rem;
-    line-height: 1.6;   
+    line-height: 1.6;
 }
 
 /* headings */
 h1,
-h2, 
-h3, 
-h4, 
-h5, 
+h2,
+h3,
+h4,
+h5,
 h6 {
     font-family: 'Rampart One', cursive;
 }
@@ -30,77 +30,77 @@ h1 {
 }
 
 p:has(> a) {
-    text-align: center; 
+    text-align: center;
 }
 
-/* Layout & Apperance */ 
+/* Layout & Apperance */
 
 header {
     height: 15vw;
-    background-color:#FF8360; 
+    background-color: #FF8360;
     color: #fff;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .main-wrapper {
-    width: 80vw; 
+    width: 80vw;
     margin: 0 auto;
-    border: 2px solid #999; 
-    padding: 1em; 
-    
+    border: 2px solid #999;
+    padding: 1em;
+
     display: flex;
     flex-direction: column;
     gap: 2em;
 }
 
 /* main */
-main{
+main {
     display: flex;
     flex-direction: column;
     gap: 2em;
 }
 
-/* section */ 
-main section{
+/* section */
+main section {
     display: flex;
 }
 
-main section > div + p {
+main section>div+p {
     background-color: #3CDBD3;
-    padding: 1em;  
+    padding: 1em;
 }
 
-main > section > div{
+main>section>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-main section:nth-child(2){
+main section:nth-child(2) {
     gap: 1em;
 }
 
 main section:nth-of-type(2) p {
     background-color: #E8E288;
-    padding: 1em;  
+    padding: 1em;
 }
 
-/* footer */ 
+/* footer */
 
-footer{
+footer {
     display: flex;
     flex-direction: row-reverse;
 }
 
 footer p,
 footer a {
-    background-color:#7DCE82; 
+    background-color: #7DCE82;
     color: #fff;
     padding: 2em;
-    border: 2px solid #fff;  
+    border: 2px solid #fff;
 }
 
 /* just practicing the selectors, nothing else (it could have been "footer p {...}" */
@@ -110,16 +110,16 @@ footer p:nth-child(2){
 } */
 
 footer p {
-    text-align:center;
+    text-align: center;
     flex-grow: 2;
 }
 
 footer a {
-    background-color:#FF8360;
+    background-color: #FF8360;
 }
 
 footer a:hover {
-    background-color: #9C528B; 
+    background-color: #9C528B;
 }
 
 /* ================================================ */
